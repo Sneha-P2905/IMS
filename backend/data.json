@@ -1,0 +1,37 @@
+{
+    "users": [
+      {
+        "name": "Admin User",
+        "email": "admin@example.com",
+        "password": "$2a$10$E6.YM7f5QfMfOfxv8W89K.m3rMhG2hrNOTrN4Yc6DwmjDClGp5J2G",
+        "role": "admin"
+      },
+      {
+        "name": "John Doe",
+        "email": "john@example.com",
+        "password": "$2a$10$E6.YM7f5QfMfOfxv8W89K.m3rMhG2hrNOTrN4Yc6DwmjDClGp5J2G",
+        "role": "staff"
+      }
+    ],
+    "products": [
+      { "name": "Laptop", "price": 1000, "stock": 10 },
+      { "name": "Smartphone", "price": 500, "stock": 30 },
+      { "name": "Tablet", "price": 300, "stock": 20 },
+      { "name": "Smartwatch", "price": 200, "stock": 15 }
+    ],
+    "suppliers": [
+      { "name": "Tech Suppliers Inc.", "contact": "9876543210", "address": "New York, USA" },
+      { "name": "Mobile Distributors Ltd.", "contact": "8765432109", "address": "London, UK" }
+    ],
+    "orders": [
+      { "customerName": "Alice", "product": "Laptop", "quantity": 1, "totalAmount": 1000, "status": "pending" },
+      { "customerName": "Bob", "product": "Smartphone", "quantity": 2, "totalAmount": 1000, "status": "shipped" }
+    ],
+    "sales": [
+      { "month": "Jan", "sales": 4000 },
+      { "month": "Feb", "sales": 5000 },
+      { "month": "Mar", "sales": 7000 },
+      { "month": "Apr", "sales": 6000 }
+    ]
+  }
+  
